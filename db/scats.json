@@ -1,0 +1,50 @@
+{
+  "scats": {
+    "scat1": {
+      "sampleNum" : "Sample #1",
+      "location" : "NSS",
+      "weight" : "12g",
+      "color" : "brown",
+      "animal" : "Michael",
+      "uid" : "wgcdPMhgGfb8s9sxhfrbb4gpjVQ2"
+
+    },
+    "scat2": {
+      "sampleNum" : "Sample #2",
+      "location" : "NSS",
+      "weight" : "12g",
+      "color" : "brown",
+      "animal" : "Michael",
+      "uid" : "67890"
+
+    },
+    "scat3": {
+      "sampleNum" : "Sample #3",
+      "location" : "NSS",
+      "weight" : "12g",
+      "color" : "brown",
+      "animal" : "Michael",
+      "uid" : "wgcdPMhgGfb8s9sxhfrbb4gpjVQ2"
+
+    },
+    "scat4": {
+      "sampleNum" : "Sample #4",
+      "location" : "NSS",
+      "weight" : "12g",
+      "color" : "brown",
+      "animal" : "Michael",
+      "uid" : "12345"
+
+    },
+    "scat5": {
+      "sampleNum" : "Sample #5",
+      "location" : "NSS",
+      "weight" : "12g",
+      "color" : "brown",
+      "animal" : "Michael",
+      "uid" : "wgcdPMhgGfb8s9sxhfrbb4gpjVQ2"
+
+    }
+  }
+}
+
