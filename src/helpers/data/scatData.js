@@ -20,4 +20,6 @@ const getMyScats = uid => new Promise((resolve, reject) => {
     .catch(err => reject(err));
 });
 
-export default { getMyScats };
+const postNewScat = newScat => axios.post(`${baseUrl}/scats.json`, newScat);
+
+export default { getMyScats, postNewScat };
