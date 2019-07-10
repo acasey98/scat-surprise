@@ -36,7 +36,7 @@ class Home extends React.Component {
     ));
     const singleLink = '/scat/12345';
     return (
-      <div className="Home col">
+      <div className="Home col-9">
         <div>Home</div>
         <div className="d-flex">
           {makeScatCards}
