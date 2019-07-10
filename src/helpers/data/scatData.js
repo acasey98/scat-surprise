@@ -22,9 +22,13 @@ const getMyScats = uid => new Promise((resolve, reject) => {
 
 const postNewScat = newScat => axios.post(`${baseUrl}/scats.json`, newScat);
 
-const editOrder = (orderId, updateOrder) => axios.put(`${baseUrl}/orders/${orderId}.json`, updateOrder);
+const getSingleScat = scatId => axios.get(`${baseUrl}/scats/${scatId}.json`);
+
+const editScat = (scatId, updatedScat) => axios.put(`${baseUrl}/scats/${scatId}.json`, updatedScat);
 
 export default {
   getMyScats,
   postNewScat,
+  getSingleScat,
+  editScat,
 };
